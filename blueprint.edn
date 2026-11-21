@@ -1,0 +1,7 @@
+{:itonami.blueprint/id "open-jpn-mynumber"
+ :itonami.blueprint/name "open-jpn-mynumber — My Number platform reference architecture"
+ ;; One classification key (itonami-lib blueprint.edn schema), chosen from
+ ;; README.md for the registry catalog (JUN-1439): isic-rev5 8411, checked against
+ ;; the ISIC Rev.5 structure table in cloud-itonami/app-itonami-org-un-isic.
+ :itonami.blueprint/isic-rev5 "8411"
+ :itonami.blueprint/domain :government/mynumber-reference}
